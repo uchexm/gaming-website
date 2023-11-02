@@ -81,7 +81,6 @@ body {
 }
 
 #board {
-  color: #fff;
   font-family: "FONTSPRING DEMO - Ondo", Lato;
   font-size: 30.767px;
   font-style: normal;
@@ -92,4 +91,65 @@ body {
 .mobile-menu {
   float: right;
   margin-left: 10rem;
+}
+
+.image1 {
+  background: url("/public/images/"), no-repeat;
+  mix-blend-mode: color-dodge;
+}
+#header {
+  color: #fff;
+  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-size: 68.937px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%; /* 76.245px */
+  letter-spacing: 2.757px;
+  text-transform: uppercase;
+}
+#explore {
+  background: linear-gradient(to right, #2d1e6b, #dd00b8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.p1 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 18.715px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.1%; /* 34.642px */
+  letter-spacing: 0.749px;
+}
+.z-100 {
+  position: absolute;
+}
+.z-10 {
+  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%; /* 22.12px */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #2d1e6b, #dd00b8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bt1 {
+  width: 232px;
+  height: 74px;
+  flex-shrink: 0;
+}
+.stats {
+  display: flex;
+  margin-top: 50px;
+}
+
+.stats div {
+  text-align: center;
+  margin-right: 50px;
 }
