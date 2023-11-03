@@ -1,0 +1,55 @@
+.game-grid h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.6%; /* 76.956px */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+#games {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.6%;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+.options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#square {
+}
+#box {
+  border-radius: 10px;
+}
+.squarebox {
+  width: 450px;
+  height: 537px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.squarebox__box {
+  margin-top: 20px;
+  width: 450px;
+  background-image: url("/images/bach.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.squarebox__box__content {
+  padding-left: 50px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
