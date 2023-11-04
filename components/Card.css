@@ -1,0 +1,91 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #2d1e6b;
+  width: 100%;
+  height: auto;
+  background-color: #2d1e6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  border-radius: 10px;
+  display: flex;
+  background-image: url("/rect4.png");
+  background-size: 75% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.rectangle {
+  margin-left: 165px;
+  margin-bottom: 60px;
+}
+.tx {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+#discover {
+  color: #fff;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.6%; /* 55.968px */
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+#virtual {
+  background: linear-gradient(
+    90deg,
+    #6542f4 15.99%,
+    #f976ff 30.01%,
+    #b50098 45.36%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.6%;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+#fix {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.1%; /* 29.616px */
+  letter-spacing: 0.64px;
+  margin-bottom: 20px;
+}
+#sta3 {
+  color: #fff;
+  font-family: Ondo;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%; /* 40.965px */
+  letter-spacing: 1.482px;
+  text-transform: uppercase;
+  gap: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+@media (max-width: 640px) {
+  .action {
+    flex-direction: column-reverse;
+    padding-right: 160px;
+    background-image: url("/rect4.png");
+    background-size: 85% 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}
