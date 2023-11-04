@@ -83,8 +83,9 @@
     flex-direction: column-reverse;
     padding-right: 160px;
     background-image: url("/rect4.png");
-    background-size: 97% 98%;
+    background-size: 85% 85%;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
   }
 }

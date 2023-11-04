@@ -75,28 +75,31 @@ const GamesGrid: React.FC = () => {
           },
         ].map((card, index) => (
           <div id="box" key={index} className="squarebox__box">
-            <div className="squarebox__box__content">
-              <Image
-                width={350}
-                height={300}
-                className={card.imgClass}
+            <div id="sq-box" className="squarebox__box__content">
+              <img
+                className="character"
                 src={card.imgSrc}
-                alt={card.imgAlt}
+                alt="character image"
               />
               <h3>{card.title}</h3>
 
               <div className="box__profile">
                 <img
+                  alt="profile pic"
                   className="profile__pic"
                   src={card.profileImgSrc}
-                  alt={card.profileImgAlt}
                 />
                 <div className="profile__details">
-                  <h4>{card.name}</h4>
-                  <p>{card.company}</p>
+                  <div className="profile__info">
+                    <h4>{card.name}</h4>
+                    <p>{card.company}</p>
+                  </div>
                 </div>
               </div>
-              <button>Live demo</button>
+
+              <button title="live" className="live-btn">
+                <img alt="live button" src="images/live.svg" />
+              </button>
             </div>
           </div>
         ))}

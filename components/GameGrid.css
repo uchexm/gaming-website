@@ -29,27 +29,65 @@
   align-items: center;
 }
 #square {
-}
-#box {
-  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
 }
 .squarebox {
-  width: 450px;
+  width: 650px;
+  height: 537px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.squarebox__box {
+  padding-right: 30px;
+  width: 397px;
   height: 537px;
   flex-shrink: 0;
   border-radius: 10px;
+  border: 1px solid #000;
+  background: url("/re.png");
+  box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
 }
-.squarebox__box {
-  margin-top: 20px;
-  width: 450px;
-  background-image: url("/images/bach.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 10px;
+.squarebox__box:hover {
+  border: 2px solid #65249b;
 }
 .squarebox__box__content {
-  padding-left: 50px;
-  border-radius: 10px;
+  padding-left: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.character:hover {
+  border: 2px solid #65249b;
+  border-radius: 10px;
+}
+.profile__pic:hover {
+  border: 2px solid #65249b;
+  border-radius: 50%;
+}
+.squarebox__box__content h3 {
+  padding-top: 30px;
+}
+.box__profile {
+  display: flex;
+  padding-top: 20px;
+}
+
+.profile__info {
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+.profile__info p {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110.6%; /* 11.06px */
+  letter-spacing: 0.35px;
+  text-transform: capitalize;
+}
+.live-btn {
+  padding-top: 30px;
 }
