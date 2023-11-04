@@ -48,6 +48,7 @@
   border: 1px solid #000;
   background: url("/re.png");
   box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
+  margin-bottom: 50px;
 }
 .squarebox__box:hover {
   border: 2px solid #65249b;
