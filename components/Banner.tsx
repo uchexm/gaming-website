@@ -1,6 +1,9 @@
+import "./Banner.css";
+
 const HeroSection: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row">
+      {/* Left Side (Order 1 in medium and small screens) */}
       <div className="w-full md:w-1/2 order-1 md:order-1 p-8 left-div">
         <h1 id="header" className="text-3xl font-bold">
           LET YOUR <br /> MIND <span id="explore">EXPLORE</span>
@@ -50,7 +53,7 @@ const HeroSection: React.FC = () => {
         <div className="flex md:absolute right-0 top-0">
           <img
             className="mix-blend-color-dodge w-full h-full"
-            src="/images/img2.png"
+            src="/images/artboard11.png"
           />
         </div>
       </div>

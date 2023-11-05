@@ -80,7 +80,7 @@ const Game: React.FC = () => {
             <span className="z-100">BUY NOW</span>
             <img
               alt="button"
-              src="/play.svg"
+              src="/images/play.svg"
               className="absolute inset-0 w-full h-full"
             />
           </button>

@@ -22,6 +22,20 @@ const Footer = () => {
           Collection og Ga
         </div>
       </div>
+      <div className="lg:hidden md:hidden sm:flex">
+        <div className="flex space-x-4 items-center">
+          <img alt="star" src="/images/Star.svg" />
+          <div className="text-lg" id="sta6">
+            Action - packed
+          </div>
+          <img alt="star" src="/images/Star.svg" />
+          <div className="text-lg" id="sta6">
+            Mind -Bending
+          </div>
+
+          <img alt="star" src="/images/Star.svg" />
+        </div>
+      </div>
       <div
         id="container"
         className="container flex flex-col md:flex-row items-center"
@@ -121,27 +135,30 @@ const Footer = () => {
       </div>
       <div id="copyright" className="socials flex hidden sm:hidden md:flex">
         <a href="#" className="social-icon">
-          <img src="/images/twitter.svg" />
+          <img alt="twitter" src="/images/twitter.svg" />
         </a>
         <a href="#" className="social-icon">
-          <img src="/images/instagram.svg" />
+          <img alt="intagram" src="/images/instagram.svg" />
         </a>
         <a
           href="#"
           id="facebook"
           className="social-icon flex justify-center items-center"
         >
-          <img src="/images/facebook.svg" className="mx-auto my-auto" />
+          <img
+            alt="facebook"
+            src="/images/facebook.svg"
+            className="mx-auto my-auto"
+          />
         </a>
 
         <a href="#" className="social-icon">
-          <img src="/images/github.svg" />
+          <img alt="github" src="/images/github.svg" />
         </a>
         <p id="copy">© Copyright 2023, All Rights Reserved by board</p>
       </div>
 
       <div className="sm:hidden md:hidden flex justify-center my-4">
-        {/* Social Icons for small and medium screens */}
         <a href="#" className="social-icon">
           <img src="/images/twitter.svg" alt="Twitter Icon" />
         </a>

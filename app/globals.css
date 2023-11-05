@@ -74,6 +74,137 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldItalic.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldItalic.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldItalic.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoExtraLightItalic.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoExtraLightItalic.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoExtraLightItalic.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoItalic.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoItalic.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoItalic.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoExtraLightRegular.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoExtraLightRegular.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoExtraLightRegular.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoLightItalic.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoLightItalic.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoLightItalic.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldRegular.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldRegular.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldRegular.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoLightRegular.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoLightRegular.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoLightRegular.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoRegular.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoRegular.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoRegular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoMediumItalic.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoMediumItalic.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoMediumItalic.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Ondo";
+  src: url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoMediumRegular.woff2")
+      format("woff2"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoMediumRegular.woff")
+      format("woff"),
+    url("/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoMediumRegular.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   color: #fff;
   background: linear-gradient(90deg, #350b5c 5%, #2d1e6b 100%);
@@ -81,7 +212,7 @@ body {
 }
 
 #board {
-  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 30.767px;
   font-style: normal;
   font-weight: 800;
@@ -90,16 +221,18 @@ body {
 }
 .mobile-menu {
   float: right;
-  margin-left: 10rem;
+  margin-top: -30px;
+  position: absolute;
+  right: 0;
+}
+.left-div {
+  margin-left: 70px;
+  margin-top: 100px;
 }
 
-.imgg1 {
-  background: url("/public/images/"), no-repeat;
-  mix-blend-mode: color-dodge;
-}
 #header {
   color: #fff;
-  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 68.937px;
   font-style: normal;
   font-weight: 800;
@@ -116,7 +249,7 @@ body {
 
 .p1 {
   color: #fff;
-  font-family: Lato;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
   font-size: 18.715px;
   font-style: normal;
   font-weight: 400;
@@ -127,7 +260,7 @@ body {
   position: absolute;
 }
 .z-10 {
-  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
@@ -154,26 +287,26 @@ body {
   margin-right: 50px;
 }
 .line {
-  margin-bottom: 50px;
+  margin-top: 100px;
   width: 100%;
   height: 50px;
   transform: rotate(-1.983deg);
   flex-shrink: 0;
   border: 1px solid #000;
-  background: url("/public/images/rect3.png"),
-    lightgray 0% 0% / 100px 100px repeat,
+  background: url("/images/rect3.png"), lightgray 0% 0% / 100px 100px repeat,
     linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.08) 0%,
       rgba(217, 217, 217, 0.04) 100%
     );
   box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(25px);
 }
 
 #sta1 {
   padding-top: 5px;
   color: #fff;
-  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 29px;
   font-style: normal;
   font-weight: 400;
@@ -186,10 +319,10 @@ body {
   background: #2d1e6b;
 }
 .heading {
-  margin-top: 150px;
+  margin-top: 100px;
   color: #fff;
   text-align: center;
-  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 66px;
   font-style: normal;
   font-weight: 800;
@@ -229,7 +362,7 @@ body {
 }
 #sta2 {
   color: #fff;
-  font-family: "FONTSPRING DEMO - Ondo", Lato;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 14.595px;
   font-style: normal;
   font-weight: 400;
@@ -264,4 +397,10 @@ body {
 .game-buttons {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 800px) {
+  .left-div {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
 }
