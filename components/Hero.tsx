@@ -49,6 +49,7 @@ const HeroSection: React.FC = () => {
       <div className="w-full md:w-1/2 order-2 md:order-2">
         <div className="flex md:absolute right-0 top-0">
           <img
+            alt="lady"
             className="mix-blend-color-dodge w-full h-full"
             src="/images/img2.png"
           />
