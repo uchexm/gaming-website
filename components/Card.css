@@ -13,7 +13,7 @@
 .action {
   border-radius: 10px;
   display: flex;
-  background-image: url("/rect4.png");
+  background-image: url("/images/rect4.png");
   background-size: 75% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@
 }
 #sta3 {
   color: #fff;
-  font-family: Ondo;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
@@ -82,7 +82,7 @@
   .action {
     flex-direction: column-reverse;
     padding-right: 160px;
-    background-image: url("/rect4.png");
+    background-image: url("/images/rect4.png");
     background-size: 85% 85%;
     background-position: center;
     background-repeat: no-repeat;

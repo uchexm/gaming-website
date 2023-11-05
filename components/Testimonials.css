@@ -1,0 +1,113 @@
+#sta4 {
+  color: #fff;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
+  font-size: 37.039px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%; /* 40.965px */
+  letter-spacing: 1.482px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.sta4 {
+  margin-bottom: 80px;
+}
+.testimonial_1 {
+  margin-left: 30px;
+  margin-right: 40px;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: url("/images/re.png");
+  width: 650px;
+  height: 388px;
+  flex-shrink: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonial_2 {
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: url("/images/re.png");
+  width: 650px;
+  height: 388px;
+  flex-shrink: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.side1 {
+  margin: 0 0 0 579px;
+  padding: 80px 0px 0px 0px;
+}
+.side2 {
+  margin: -40px 90px 0px 0px;
+}
+.vibe {
+  color: #fff;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.1%; /* 29.616px */
+  letter-spacing: 0.64px;
+}
+.horizontal-line {
+  width: 528px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #fff 1.04%, rgba(255, 255, 255, 0) 100%);
+}
+.details img {
+  padding-right: 20px;
+}
+.details p {
+  color: #fff;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
+  font-size: 11.649px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110.6%; /* 12.884px */
+  letter-spacing: 0.408px;
+  text-transform: capitalize;
+}
+.details span {
+  display: flex;
+}
+.dots {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  align-self: center;
+  justify-self: center;
+}
+
+@media (max-width: 800px) {
+  .testimonial_1 {
+    padding-right: 30px;
+    width: 397px;
+    height: 537px;
+    flex-shrink: 1;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: url("/images/re.png");
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+  }
+  .horizontal-line {
+    width: 80%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #fff 1.04%, rgba(255, 255, 255, 0) 100%);
+  }
+  .side3 {
+    margin: 0 0 0 279px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    z-index: 10;
+  }
+}
