@@ -1,0 +1,121 @@
+.sta5 {
+  border: 1px solid black;
+  background: url("/foo.png"), lightgray 0% 0% / 100px 100px repeat,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(217, 217, 217, 0.04) 100%
+    );
+  box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(25px);
+  margin-top: -70px;
+}
+#sta5 {
+  color: #fff;
+  font-family: "FONTSPRING DEMO - Ondo", "Lato";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%; /* 33.18px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+#container {
+  margin-top: 50px;
+  width: 90%;
+}
+.footer {
+  background: url("/foot.png"),
+    lightgray -0.573px -40.736px / 100.066% 108.213% no-repeat;
+  mix-blend-mode: color-dodge;
+  width: 100%;
+  height: auto;
+  flex-shrink: 1;
+}
+#logo {
+  margin-top: 90px;
+}
+.blue-logo {
+  width: 59.151px;
+  height: 45.067px;
+  flex-shrink: 1;
+}
+.footer-div {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+#description {
+  color: #fff;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.1%; /* 29.616px */
+  letter-spacing: 0.64px;
+}
+.footer-div h2 {
+  color: #fff;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%; /* 19.908px */
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+}
+.footer-div li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110.6%; /* 19.908px */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+#icn {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#copyright {
+  color: #fff;
+  font-family: "Lato", "FONTSPRING DEMO - Ondo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.6%; /* 24.304px */
+  letter-spacing: 0.91px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+#facebook {
+  background-image: url("/images/BG.svg");
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid purple;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.social-icon {
+  margin-right: 20px;
+}
+@media (max-width: 800px) {
+  .icn {
+    margin-top: 8px;
+  }
+  .container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+}
