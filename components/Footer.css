@@ -78,6 +78,12 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+#icn {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 #copyright {
   color: #fff;
   font-family: "Lato", "FONTSPRING DEMO - Ondo";
@@ -87,5 +93,29 @@
   line-height: 173.6%; /* 24.304px */
   letter-spacing: 0.91px;
   margin-left: 100px;
-  margin-top: 150px;
+  margin-top: 100px;
+}
+#facebook {
+  background-image: url("/images/BG.svg");
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid purple;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.social-icon {
+  margin-right: 20px;
+}
+@media (max-width: 800px) {
+  .icn {
+    margin-top: 8px;
+  }
+  .container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
 }

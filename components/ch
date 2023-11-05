@@ -95,31 +95,32 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div id="icn" className="flex flex-wrap justify-center">
-        <div
-          id="twitter"
-          className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5 sm:gap-10 md:gap-10 icn"
-        >
+      <div className="flex flex-wrap justify-center icn">
+        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5">
           <img src="/images/twitch.svg" alt="Twitch Icon" />
         </div>
 
-        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5 sm:gap-10 md:gap-10 icn">
+        {/* Icon 2 */}
+        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5">
           <img src="/images/roblox.svg" alt="Roblox Icon" />
         </div>
 
-        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5 sm:gap-10 md:gap-10 icn">
+        {/* Icon 3 */}
+        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5">
           <img src="/images/asus.svg" alt="Asus Icon" />
         </div>
 
-        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5 sm:gap-10 md:gap-10 icn">
-          <img src="/images/canon.svg" alt="Canon Icon" />
+        {/* Icon 4 */}
+        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5">
+          <img src="/images/canon.svg" alt="Microsoft Icon" />
         </div>
 
-        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5 sm:gap-10 md:gap-10 icn">
-          <img src="/images/microsoft.svg" alt="Microsoft Icon" />
+        {/* Icon 5 */}
+        <div className="w-1/2 sm:w-1/5 md:w-1/5 lg:w-1/5 xl:w-1/5">
+          <img src="/images/microsoft.svg" alt="Canon Icon" />
         </div>
       </div>
-      <div id="copyright" className="socials flex hidden sm:hidden md:flex">
+      <div id="copyright" className="socials flex">
         <a href="#" className="social-icon">
           <img src="/images/twitter.svg" />
         </a>
@@ -137,29 +138,9 @@ const Footer = () => {
         <a href="#" className="social-icon">
           <img src="/images/github.svg" />
         </a>
-        <p id="copy">© Copyright 2023, All Rights Reserved by board</p>
-      </div>
-
-      <div className="sm:hidden md:hidden flex justify-center my-4">
-        {/* Social Icons for small and medium screens */}
-        <a href="#" className="social-icon">
-          <img src="/images/twitter.svg" alt="Twitter Icon" />
-        </a>
-        <a href="#" className="social-icon">
-          <img src="/images/instagram.svg" alt="Instagram Icon" />
-        </a>
-        <a href="#" id="facebook" className="social-icon">
-          <img src="/images/facebook.svg" alt="Facebook Icon" />
-        </a>
-        <a href="#" className="social-icon">
-          <img src="/images/github.svg" alt="GitHub Icon" />
-        </a>
-      </div>
-
-      <div className="hidden sm:flex md:flex justify-center my-4"></div>
-
-      <div className="w-full text-center my-4 lg:hidden">
-        <p id="copy">© Copyright 2023, All Rights Reserved by board</p>
+        <p className="w-full text-center my-4" id="copy">
+          © Copyright 2023, All Rights Reserved by board
+        </p>
       </div>
     </footer>
   );
