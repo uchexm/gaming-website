@@ -45,6 +45,7 @@ This project is a technical challenge as part of an interview process to determi
   <summary>Language</summary>
   <ul>
     <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 

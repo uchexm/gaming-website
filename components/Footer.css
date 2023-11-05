@@ -1,6 +1,6 @@
 .sta5 {
   border: 1px solid black;
-  background: url("/foo.png"), lightgray 0% 0% / 100px 100px repeat,
+  background: url("/images/foo.png"), lightgray 0% 0% / 100px 100px repeat,
     linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.08) 0%,
@@ -27,7 +27,7 @@
   width: 90%;
 }
 .footer {
-  background: url("/foot.png"),
+  background: url("/images/foot.png"),
     lightgray -0.573px -40.736px / 100.066% 108.213% no-repeat;
   mix-blend-mode: color-dodge;
   width: 100%;
@@ -93,7 +93,7 @@
   line-height: 173.6%; /* 24.304px */
   letter-spacing: 0.91px;
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 #facebook {
   background-image: url("/images/BG.svg");
@@ -117,5 +117,24 @@
     display: flex;
     justify-content: start;
     align-items: start;
+  }
+  .sta6 {
+    color: #fff;
+    font-family: Ondo;
+    font-size: 16.595px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110.6%; /* 18.354px */
+    letter-spacing: 0.664px;
+    text-transform: uppercase;
+    border: 0.553px solid #000;
+    background: url("/images/Rectangle33.png"),
+      lightgray 0% 0% / 55.31772971153259px 55.31772971153259px repeat,
+      linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.08) 0%,
+        rgba(217, 217, 217, 0.04) 100%
+      );
+    box-shadow: 0px 2.21271px 11.06355px -0.55318px rgba(0, 0, 0, 0);
   }
 }

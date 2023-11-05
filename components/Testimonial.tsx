@@ -24,17 +24,37 @@ const Testimonials: React.FC = () => {
       </div>
 
       <div className="side1 flex absolute top-0 left-0 -mt-39 z-10 hidden md:hidden lg:flex">
-        <Image width={41} height={78} alt="image" src="/side.svg" />
-        <Image width={41} height={78} alt="image" src="/side1.svg" />
+        <Image
+          width={41}
+          height={78}
+          alt="shape image"
+          src="/images/side.svg"
+        />
+        <Image
+          width={41}
+          height={78}
+          alt="shape image"
+          src="/images/side1.svg"
+        />
       </div>
       <div className="side2 flex absolute right-0 -mb-39 z-10 hidden md:hidden lg:flex">
-        <Image width={41} height={78} alt="image" src="/side.svg" />
-        <Image width={41} height={78} alt="image" src="/side1.svg" />
+        <Image
+          width={41}
+          height={78}
+          alt="shape image"
+          src="/images/side.svg"
+        />
+        <Image
+          width={41}
+          height={78}
+          alt="shape image"
+          src="/images/side1.svg"
+        />
       </div>
       <div className="hidden md:hidden lg:flex testimonials flex-col md:flex-row  relative">
         <div className="testimonial_1 md:w-1/2">
           <div className="stars">
-            <img alt="stars" src="/st.svg" />
+            <img alt="stars" src="/images/st.svg" />
           </div>
           <p className="vibe">
             One of the standout features of this gaming website is its extensive
@@ -54,11 +74,13 @@ const Testimonials: React.FC = () => {
               />
               <div className="info md:w-3/4">
                 <h3>Alan McCoy</h3>
-                <p>McDonald's</p>
+                <p>
+                  <p>McDonalds</p>
+                </p>
               </div>
               <span>
                 {" "}
-                <img alt="stars" src="/veri.svg" /> Verified
+                <img alt="stars" src="/images/veri.svg" /> Verified
               </span>
             </div>
           </div>
@@ -66,15 +88,14 @@ const Testimonials: React.FC = () => {
 
         <div className="testimonial_2 md:w-1/2">
           <div className="stars">
-            <img alt="stars" src="/st.svg" />
+            <img alt="stars" src="/images/st.svg" />
           </div>
           <p className="vibe">
             Another aspect that sets this website apart is its vibrant and
             passionate community. The forum section provides a platform for
             gamers from all walks of life to connect, share their experiences,
-            and discuss their favorite titles. I've made valuable friendships
-            and found like-minded individuals who share my enthusiasm for
-            gaming.
+            and discuss their favorite titles. Ive made valuable friendships and
+            found like-minded individuals who share my enthusiasm for gaming.
           </p>
           <div className="horizontal-line"></div>
           <div className="profile">
@@ -90,14 +111,14 @@ const Testimonials: React.FC = () => {
               </div>
               <span>
                 {" "}
-                <img alt="stars" src="/veri.svg" /> Verified
+                <img alt="stars" src="/images/veri.svg" /> Verified
               </span>
             </div>
           </div>
         </div>
       </div>
       <div className=" hidden md:hidden lg:flex flex items-center justify-center">
-        <img src="/41.svg" alt="Center Dots" className="dots" />
+        <img src="/images/41.svg" alt="Center Dots" className="dots" />
       </div>
 
       <div className="lg:hidden md:flex-col sm:flex-col items-center justify-center ">
@@ -117,8 +138,18 @@ const Testimonials: React.FC = () => {
         </div>
 
         <div className="side3 flex">
-          <Image width={41} height={78} alt="image" src="/side.svg" />
-          <Image width={41} height={78} alt="image" src="/side1.svg" />
+          <Image
+            width={41}
+            height={78}
+            alt="shape image"
+            src="/images/side.svg"
+          />
+          <Image
+            width={41}
+            height={78}
+            alt="shape image"
+            src="/images/side1.svg"
+          />
         </div>
         <div className="testimon relative">
           <div className="testimonial_1">
@@ -143,18 +174,18 @@ const Testimonials: React.FC = () => {
                 />
                 <div className="info md:w-3/4">
                   <h3>Alan McCoy</h3>
-                  <p>McDonald's</p>
+                  <p>McDonalds</p>
                 </div>
                 <span>
                   {" "}
-                  <img alt="stars" src="/veri.svg" /> Verified
+                  <img alt="stars" src="/images/veri.svg" /> Verified
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <img src="/41.svg" alt="Center Dots" className="dots" />
+          <img src="/images/41.svg" alt="Center Dots" className="dots" />
         </div>
       </div>
     </div>

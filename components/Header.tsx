@@ -39,7 +39,7 @@ const Header = () => {
             {/* Use justify-between to move the menu icon to the right */}
             <Link href="/" className="flex items-center">
               <Image
-                src="/Vector.svg"
+                src="/images/Vector.svg"
                 alt="logo"
                 width={45.751}
                 height={34.858}
@@ -90,7 +90,7 @@ const Header = () => {
             >
               <span>
                 <Image
-                  src="/bag-icon.svg"
+                  src="/images/bag-icon.svg"
                   alt="bag"
                   width={45.751}
                   height={34.858}

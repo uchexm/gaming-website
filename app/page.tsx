@@ -4,6 +4,7 @@ import Card from "@/components/Card";
 import GamesGrid from "@/components/GameGrid";
 import Testimonials from "@/components/Testimonial";
 import Footer from "@/components/Footer";
+import HeroSection from "@/components/Banner";
 
 export default function Home() {
   return (
