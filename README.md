@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Board Gaming Website <a name="about-project"></a>
+# 🎮 Board Gaming Website <a name="about-project"></a>
 
 **Board Gaming Website** is the ultimate gaming destination, where enthusiasts and gamers of all skill levels converge to experience the thrill of online gaming like never before. Our gaming web app offers a dynamic platform that allows users to engage in intense battles and challenges against opponents of their choice.
 Unleash your competitive spirit and immerse yourself in an expansive gaming universe where you have the freedom to choose from a diverse selection of games, each with its unique mechanics and challenges. Whether you're a seasoned pro or just starting your gaming journey, you'll find the perfect match for your skills and interests.
@@ -82,7 +82,7 @@ This project is a technical challenge as part of an interview process to determi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Render](https://che-v1m0.onrender.c/)
+- [Vercel](https://gaming-website-uni9.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
