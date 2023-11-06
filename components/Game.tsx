@@ -1,9 +1,10 @@
+import "./Game.css";
 import Link from "next/link";
 import Image from "next/image";
 
 const Game: React.FC = () => {
   return (
-    <div className="gameCarousel">
+    <div className="gameCarousel items-center justify-center">
       <div className="line hidden md:hidden lg:flex">
         <div className="flex space-x-4 items-center">
           <div className="text-lg" id="sta1">
@@ -22,6 +23,20 @@ const Game: React.FC = () => {
           <div className="text-lg" id="sta1">
             Collection og game
           </div>
+          <img alt="star" src="/images/Star.svg" />
+        </div>
+      </div>
+      <div className="lg:hidden md:hidden sm:flex">
+        <div className="flex space-x-4 items-center">
+          <img alt="star" src="/images/Star.svg" />
+          <div className="text-lg" id="sta2">
+            Action - packed
+          </div>
+          <img alt="star" src="/images/Star.svg" />
+          <div className="text-lg" id="sta2">
+            Mind -Bending
+          </div>
+
           <img alt="star" src="/images/Star.svg" />
         </div>
       </div>

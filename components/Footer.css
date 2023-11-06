@@ -35,15 +35,12 @@
   flex-shrink: 1;
 }
 #logo {
-  margin-top: 90px;
+  margin-top: 50px;
+  padding-bottom: 10px;
 }
-.blue-logo {
-  width: 59.151px;
-  height: 45.067px;
-  flex-shrink: 1;
-}
+
 .footer-div {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: 50px;
   margin-left: 70px;
 }

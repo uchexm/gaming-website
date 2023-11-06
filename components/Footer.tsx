@@ -43,14 +43,11 @@ const Footer = () => {
         <div id="logo" className="mb-4 md:mb-0">
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo-footer.PNG"
+              src="/images/Group2.png"
               alt="logo"
-              width={45.751}
-              height={34.858}
+              width={100}
+              height={100}
             />
-            <h1 id="board" className="ml-4 text-xl font-bold">
-              board
-            </h1>
           </Link>
 
           <p id="description" className="mt-2 text-sm">
