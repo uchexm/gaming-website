@@ -81,9 +81,9 @@
 @media (max-width: 640px) {
   .action {
     flex-direction: column-reverse;
-    padding-right: 160px;
+    padding-right: 200px;
     background-image: url("/images/rect4.png");
-    background-size: 85% 85%;
+    background-size: 64% 90%;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;

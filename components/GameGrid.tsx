@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const GamesGrid: React.FC = () => {
   return (
-    <div className="game-grid">
+    <div className="game-grid items-center justify-center">
       <h2>
         Welcome to the <br />
         top <span id="games">games</span>

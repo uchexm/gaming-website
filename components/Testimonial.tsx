@@ -4,22 +4,14 @@ import Image from "next/image";
 const Testimonials: React.FC = () => {
   return (
     <div className="relative">
-      <div className="hidden md:hidden lg:flex sta4">
-        <div className="" id="sta4">
-          Spaning
-        </div>
+      <div className="hidden md:hidden lg:flex sta9">
+        <div className="sta4">Spaning</div>
         <img alt="star" src="/images/Star.svg" />
-        <div className="" id="sta4">
-          Action - packed
-        </div>
+        <div className="sta4">Action - packed</div>
         <img alt="star" src="/images/Star.svg" />
-        <div className="" id="sta4">
-          Mind -Bending
-        </div>
+        <div className="sta4">Mind -Bending</div>
         <img alt="star" src="/images/Star.svg" />
-        <div className="" id="sta4">
-          Collect
-        </div>
+        <div className="sta4">Collect</div>
         <img alt="star" src="/images/Star.svg" />
       </div>
 
@@ -74,9 +66,9 @@ const Testimonials: React.FC = () => {
               />
               <div className="info md:w-3/4">
                 <h3>Alan McCoy</h3>
-                <p>
+                <div>
                   <p>McDonalds</p>
-                </p>
+                </div>
               </div>
               <span>
                 {" "}
@@ -123,9 +115,9 @@ const Testimonials: React.FC = () => {
 
       <div className="lg:hidden md:flex-col sm:flex-col items-center justify-center ">
         <div className="lg:hidden md:hidden sm:flex">
-          <div className="flex space-x-4 items-center">
+          <div className="flex space-x-4 items-center sta7">
             <img alt="star" src="/images/Star.svg" />
-            <div className="text-lg" id="sta2">
+            <div className="text-lg" id="sta">
               Action - packed
             </div>
             <img alt="star" src="/images/Star.svg" />
@@ -154,7 +146,7 @@ const Testimonials: React.FC = () => {
         <div className="testimon relative">
           <div className="testimonial_1">
             <div className="stars">
-              <img alt="stars" src="/st.svg" />
+              <img alt="stars" src="/images/st.svg" />
             </div>
             <p className="vibe">
               One of the standout features of this gaming website is its

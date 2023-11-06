@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-key */
+import "./Header.css";
 import Link from "next/link";
 import Container from "./ui/container";
 import Image from "next/image";
@@ -36,17 +37,14 @@ const Header = () => {
         <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between w-full">
           <div className="flex items-center justify-between">
             {" "}
-            {/* Use justify-between to move the menu icon to the right */}
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/Vector.svg"
+                src="/images/Group2.png"
                 alt="logo"
-                width={45.751}
-                height={34.858}
+                width={100}
+                height={100}
               />
-              <h1 id="board" className="ml-4 text-xl font-bold">
-                board
-              </h1>
+              <h1 id="board" className="ml-4 text-xl font-bold"></h1>
             </Link>
             <Sheet>
               <SheetTrigger>

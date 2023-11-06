@@ -1,3 +1,4 @@
+import "./Hero.css";
 const HeroSection: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row">
@@ -44,8 +45,6 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* Right Side (Order 2 in medium and small screens) */}
       <div className="w-full md:w-1/2 order-2 md:order-2">
         <div className="flex md:absolute right-0 top-0">
           <img
