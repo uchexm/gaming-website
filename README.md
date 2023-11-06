@@ -82,7 +82,7 @@ This project is a technical challenge as part of an interview process to determi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Vercel](https://gaming-website-uni9.vercel.app/)
+- [Render](https://gaming-website-uni9-cvl7g1jpb-uchexms-projects.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
